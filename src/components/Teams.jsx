@@ -34,7 +34,7 @@ const Teams = () => {
                         return(<div>
                             <div className="text-black font-semibold text-xl top-4 text-center mt-4">{item.title}</div>
                             <div>
-                            <div className="grid grid-cols-2 grid-rows-2 gap-9 justify-between mt-4 min-[610px]:grid-cols-3">
+                            <div className="grid grid-cols-2 gap-9 justify-between mt-4 min-[610px]:grid-cols-3">
                                 {item.members.map((member) => {
                                     return(
                                        
