@@ -5,7 +5,7 @@ import {logoData}  from "../assests/logo.js";
 const Contact = () => {
   return (
     <div className="relative top-20 flex flex-col justify-center items-center mt-10 pb-9" >
-      <h1 className="text-black font-bold text-4xl">Contact Us</h1>
+      <h1 className="text-black font-bold text-2xl">Contact Us</h1>
       <p className="font-light pt-5 pb-5 text-xl">
         We're very active on social media
       </p>
